@@ -1,0 +1,15 @@
+x1=float(input("Insira o primeiro número:"))
+x2=float(input("Insira o segundo número:"))
+operacao=input("Qual operação você deseja ultilizar?(subtracao, soma, multiplicacao, divisao)")
+if operacao=="subtracao":
+    y=x1-x2
+    print(f"A subtração dos numeros que você escolheu é igual a:{y}")
+elif operacao=="soma":
+    y=x1+x2
+    print(f"A soma dos numeros que você escolheu é igual a:{y}")
+elif operacao=="multiplicacao":
+    y=x1*x2
+    print(f"A multiplicação dos numeros que você escolheu é igual a:{y}")
+else:
+    y=x1/x2
+    print(f"A divisão dos numeros que você escolheu é igual a:{y}")
